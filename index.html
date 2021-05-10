@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar_column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar_column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar_column">
+        <span>32%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!--header는 웹사이트안에서 여러개이기때문에 class를 지정함-->
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Talk</h1>
+      <p class="welcome-header__text">
+        If you have a Kokoa Acount, log in with your email or phone number.
+      </p>
+    </header>
+
+    <!--form은 하나예상되므로 id로 지정-->
+    <form action="friends.html" method="get" id="login-form">
+      <input type="text" placeholder="Email or phone number" required />
+      <input type="password" placeholder="Password" required />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kokoa Acount or Password</a>
+    </form>
+
+    <!--icon script-->
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

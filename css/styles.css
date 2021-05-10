@@ -1,0 +1,27 @@
+/*
+Google font 에서 폰트 쓰는방법 맨 위에 지정
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*/
+/*CSS파일에 다른 CSS파일 추가하기*/
+@import "reset.css";
+@import "variables.css";
+
+/*Components*/
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+
+/*Screens*/
+@import "screens/login.css";
+@import "screens/friends.css";
+
+body {
+  color: #2e363e;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.main-screen {
+  padding: 0 var(--harizantal-space);
+}

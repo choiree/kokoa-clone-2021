@@ -1,0 +1,29 @@
+/*CSS hack!! center하고 33% 각각 주기*/
+.status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+  box-sizing: border-box; /*내 박스 사이즈를 늘리지 말아줘*/
+}
+.status-bar_column {
+  width: 33%;
+}
+.status-bar_column:first-child span {
+  margin-right: 5px;
+}
+.status-bar_column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar_column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar_column .fa-battery-quarter {
+  margin: 0 5px;
+}
