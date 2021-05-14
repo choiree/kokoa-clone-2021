@@ -14,6 +14,7 @@ Google font 에서 폰트 쓰는방법 맨 위에 지정
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /*Screens*/
 @import "screens/login.css";
