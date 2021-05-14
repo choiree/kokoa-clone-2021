@@ -1,3 +1,6 @@
+#settings {
+  height: 115vh;
+}
 .settings_setting {
   padding: 20px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -6,12 +9,17 @@
   align-items: center;
   justify-content: space-between;
 }
+.settings_setting:nth-child(3) {
+  margin-bottom: 40px;
+}
 .settings_setting i {
   opacity: 0.8;
   margin-right: 20px;
   font-size: 22px;
 }
-
+.settings_setting-column {
+  position: relative;
+}
 .settings_setting-column:last-child {
   opacity: 0.5;
 }

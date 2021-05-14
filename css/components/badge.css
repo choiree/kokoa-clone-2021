@@ -9,3 +9,19 @@
   color: white;
   font-weight: 600;
 }
+
+.settings_alram-new {
+  background-color: tomato;
+  position: absolute;
+  top: 6px;
+  right: -23px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  color: white;
+  font-size: 5px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
